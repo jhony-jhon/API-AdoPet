@@ -11,5 +11,5 @@ public interface PetRepository extends JpaRepository<Pet, Long> {
 
     List<Pet> findAllByAdotadoFalse();
 
-    List<PetDto> findByAbrigo(Abrigo abrigo);
+    List<Pet> findByAbrigo(Abrigo abrigo);
 }
